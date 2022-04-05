@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.15.4
 
 LABEL "com.github.actions.name"="Build Ghost Theme"
 LABEL "com.github.actions.description"="Build a Ghost THeme zip file with file named determined by pack.json file"
